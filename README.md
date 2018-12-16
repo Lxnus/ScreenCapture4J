@@ -4,6 +4,12 @@ Screen capture tool to capture or grab an specific window on Desktop in Java
 ScreenCapture4J is created to capture or grab a custom window on the desktop. You also have the option to save the window as image or gif 
 to your computer.
 
+### Requiments
+
+```
+Java Native Interface (JNI)
+```
+
 ### Usage
 
 ```java
