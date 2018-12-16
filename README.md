@@ -3,7 +3,7 @@ Screen capture tool to capture or grab an specific window on Desktop in Java
 
 *USAGE*
 
-```
+```java
 public void grabScreen() {
      ScreenCapture screenCaputre = new ScreenCapture("<yourWindowName>");
      BufferedImage image = null;
