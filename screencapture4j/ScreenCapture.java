@@ -16,10 +16,6 @@ import com.sun.jna.platform.win32.WinGDI;
 import com.sun.jna.platform.win32.WinGDI.BITMAPINFO;
 import com.sun.jna.platform.win32.WinNT.HANDLE;
 
-import de.me.linus.jf.framework.utils.screen_utils.GDI32Extra;
-import de.me.linus.jf.framework.utils.screen_utils.User32Extra;
-import de.me.linus.jf.framework.utils.screen_utils.WinGDIExtra;
-
 public class ScreenCapture {
 
 	public String windowName = "";
