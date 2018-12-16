@@ -5,7 +5,7 @@ Screen capture tool to capture or grab an specific window on Desktop in Java
 
 ```java
 public void grabScreen() {
-     ScreenCapture screenCaputre = new ScreenCapture("<yourWindowName>");
+     ScreenCapture screenCaputre = new ScreenCapture("<yourWindowName>"); // <yourWindowName> -> change to the title of you window, you want to capture!
      BufferedImage image = null;
      while(true) {
           image = screenCapture.current_image();
