@@ -43,6 +43,7 @@ public class ScreenCapture {
 	
 	public BufferedImage current_image() {
 		this.hWnd = User32.INSTANCE.FindWindow(null, this.windowName);
+		this.image = this.capture(this.hWnd);
 		return this.image;
 	}
 	
