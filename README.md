@@ -8,6 +8,7 @@ to your computer.
 
 ```
 Java Native Interface (JNI)
+Java Native Access (JNA)
 ```
 
 ### Usage
